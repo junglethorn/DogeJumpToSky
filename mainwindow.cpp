@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     this->scene = new MyScene;
+    this->ui->graphicsView->setScene(scene);
+    //this->scene->setBackgroundBrush(Qt::green);
     this->score = 0;
     connect(this->ui->btn_start, SIGNAL(clicked()), this->scene, SLOT(startGame()));
     connect(this->ui->btn_pulse, SIGNAL(clicked()), this->scene, SLOT(pulseGame()));

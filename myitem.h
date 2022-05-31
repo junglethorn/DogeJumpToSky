@@ -2,10 +2,14 @@
 #define MYITEM_H
 
 #include <QGraphicsPixmapItem>
+#include <QGraphicsRectItem>
+#include <QGraphicsItem>
+#include <QGraphicsView>
+#include <QLabel>
 #include <QString>
 #include <QGraphicsSceneMouseEvent>
 
-class myitem : public QGraphicsPixmapItem
+class myitem : public QGraphicsRectItem
 {
 public:
     myitem();
