@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>res/bg.mp3</file>
+        <file>res/bk.wav</file>
+        <file>res/doge.png</file>
+        <file>res/short.wav</file>
+        <file>res/wa_piece1.png</file>
+        <file>res/wa_piece2.png</file>
+        <file>res/background1.png</file>
+        <file>res/hero_doge.png</file>
+        <file>res/ac_.png</file>
+        <file>res/ce_.png</file>
+        <file>res/wa_.png</file>
+        <file>res/pass_.png</file>
+        <file>res/start_title.png</file>
+        <file>res/icon2.png</file>
+        <file>res/start_bg.jpeg</file>
+        <file>res/start_title_.png</file>
+        <file>res/info.png</file>
+        <file>res/end_bg.png</file>
+        <file>res/boss.png</file>
+        <file>res/502.png</file>
+        <file>res/info_.png</file>
+        <file>res/little_monster.png</file>
+        <file>res/sprite_monster.png</file>
+        <file>res/spr.png</file>
+        <file>res/spri.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
